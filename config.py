@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "22370719"))
 API_HASH = environ.get("API_HASH", "224843ccab4fcf3ed9b07353b269ea4e")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEindivkm_SHa6SaAplAf3EL7LmrXnsU73K79_XxVOqX3nFyoQJ-T7f02rTa8IH38ZBYP4OEd9KS4wsZyyPiGRX6h8byebFsO_qMWtUAiWqCCLsi1npd1LJ7xTHybKxKb6ZAvgixQKUQyPT3Cvqn0e-zTRIe8JfJKi0TqTWlcU7n2pCvNXty4ioxLoQl/s1600/Alpha.png')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo70rbB1461ihstEJa6EckTs4FfBQT9KSE29GV5zlOvMA067HD6WC6-fKcLx24jXc0Wgw0Kw3bReZpX6xQRT62TOgdxvsYfgED8e9O6i_Fq63pfBOFGF8eOadHtlinqF1tplEZvVLtes2y-RhsrQ7119udBIELxz7w1ZmEU0IkqDM9Ib8jtwGZMxsq/s1600/Alpha.png')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '768991544').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "alphafilestorage_bot") # without @
 PORT = environ.get("PORT", "8080")
